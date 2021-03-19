@@ -1,3 +1,5 @@
+/* Integer Palindrome Menggunakan Bahasa C Programming */
+
 #include <stdio.h>
 int main()
 {
