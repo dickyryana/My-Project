@@ -1,12 +1,17 @@
 div.scrollmenu {
+    overflow: hidden;
     background-color: white;
-
+    max-width: 100%;
     white-space: nowrap;
     box-shadow: 0px 0px 5px 0px  grey;
-    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:300;
   }
   
   div.scrollmenu a {
+    max-width: 100%;
     display: inline-block;
     color: black;
     text-align: center;
@@ -15,6 +20,7 @@ div.scrollmenu {
   }
   
   div.scrollmenu a:hover {
+    max-width: 100%;
     background-color: #777;
   }
 
@@ -153,4 +159,8 @@ div.jarak2 ::after{
   footer{
     background: black;
     height: 40px;
+  }
+  
+  .scrollmenu + .content {
+    padding-top: 60px;
   }
